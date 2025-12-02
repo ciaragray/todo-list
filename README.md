@@ -1,30 +1,16 @@
-React To-Do List
-Project Overview  
-This project is a simple to-do list built with React and Vite as part of my code the dream coursework.
-It demostrates how to create, manage, and render reusable React components while applying best practices for linting, organization, and modern JavaScript development.
-Installation & Setup
-Follow these steps to install and run locally on your computer.
+# React + Vite
 
-1. Clone the Repository
-   git clone https://github.com/ciaragrayson/todo-list.git
-   cd todo-list
-2. Install Dependencies
-   npm install
-3. Start the Development Server
-   npm run dev
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-After running the command, open the provided locakhost URL in your browser (e.g., http://loacalhost:5173)
+Currently, two official plugins are available:
 
-Linting & Code Quality
-This project uses ESLint to enforce clean and consistent code formatting.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Run ESLint
-npm run lint
+## React Compiler
 
-Tech Stack
-React(via Vite)
-JavaScript (ES2020+)
-ESLint for linting and best practices
-Prettier (optional formatting tool)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Created by Ciara Grayson
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
